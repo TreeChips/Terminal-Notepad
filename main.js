@@ -32,7 +32,6 @@ let rl = readline.createInterface({
 //Know when to enter command
 console.log("Enter command:")
 
-//
 rl.on('line', (input) => {
   tester = input.toLowerCase();
   n = input;
